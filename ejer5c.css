@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .grid-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%; 
+    max-width: 600px; 
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 100px; 
+  }
+  
+  .grid-item:nth-child(1) { 
+    background-color: #ff5b5b; 
+    color: #ffe066; 
+  } 
+  
+  .grid-item:nth-child(2) { 
+    background-color: #ff7f50; 
+    color: #6a5acd; 
+  } 
+  
+  .grid-item:nth-child(3) { 
+    background-color: #ffbf00; 
+    color: #2f4f4f; 
+  } 
+  
+  .grid-item:nth-child(4) { 
+    background-color: #7fffd4; 
+    color: #8b4513; 
+  } 
+  
+  .grid-item:nth-child(5) { 
+    background-color: #40e0d0; 
+    color: #ff4500; 
+  } 
+  
+  .grid-item:nth-child(6) { 
+    background-color: #1e90ff; 
+    color: #f0e68c; 
+  } 
+  
+  .grid-item:nth-child(7) { 
+    background-color: #9370db;
+    color: #00ff7f; 
+  } 
+  
+  .grid-item:nth-child(8) { 
+    background-color: #ff69b4; 
+    color: #483d8b; 
+  } 
+  
+  .grid-item:nth-child(9) { 
+    background-color: #8b0000; 
+    color: #ffa07a; 
+  } 
+  
